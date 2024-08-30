@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-j@7@z=25eihdqck8wpuiz%t_h^ez+l4i8_87fqlrah+9vc(auq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'tharinduniab-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+
+CSRF_TRUSTED_ORIGINS = ['https://tharinduniab-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
 
 # Application definition
